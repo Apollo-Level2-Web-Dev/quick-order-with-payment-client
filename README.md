@@ -1,11 +1,8 @@
-# Quick Order Client Starter
+# Quick Order Client
 
+Welcome to the Quick Order Client repository! This project is part of the Next Level Web Development course and provides a complete client-side setup for integrating the AmarPay payment system into a web application. This project demonstrates how to implement a payment system in web applications using AmarPay, specifically designed for advanced web development practices.
 
-Welcome to the Quick Order Client Starter repository! This project is part of the Next Level Web Development course and provides a foundational setup for integrating the AmarPay payment system into a web application. 
-
-
-This project serves as a starter pack for implementing a payment system in web applications using AmarPay, specifically designed for educational purposes in advanced web development.
-
+---
 
 ### **Getting Started**
 
@@ -14,13 +11,13 @@ To get started with this project, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/Apollo-Level2-Web-Dev/quick-order-client-starter.git
+   git clone https://github.com/Apollo-Level2-Web-Dev/quick-order-with-payment-client.git
    ```
 
 2. **Navigate to the Project Directory:**
 
    ```bash
-   cd quick-order-client-starter
+   cd quick-order-with-payment-client
    ```
 
 3. **Install Dependencies:**
@@ -31,7 +28,7 @@ To get started with this project, follow these steps:
    npm install
    ```
 
-5. **Run the Application:**
+4. **Run the Application:**
 
    Start the development server with:
 
@@ -41,7 +38,9 @@ To get started with this project, follow these steps:
 
    Your application will be available at `http://localhost:5173/`.
 
-##### **Directory Structure**
+---
+
+### **Directory Structure**
 
 ```plaintext
 public/
@@ -55,7 +54,7 @@ src/
 ├── redux/                    # Redux-related files
 │   ├── api/                  # API configuration and utilities
 │   │   └── api.ts            # API service definitions
-│   ├── features/            # Redux slices and feature-specific logic
+│   ├── features/             # Redux slices and feature-specific logic
 │   │   └── cartSlice.ts      # Slice for cart state management
 │   ├── hooks.ts              # Custom Redux hooks
 │   └── store.ts              # Redux store configuration
@@ -64,7 +63,7 @@ src/
 ├── assets/                   # Static assets like images
 │   ├── logo.png              # Project logo
 │   └── react.svg             # React logo or asset
-├── components/              # Reusable React components
+├── components/               # Reusable React components
 │   ├── Banner.tsx            # Banner component
 │   ├── Navbar.tsx            # Navigation bar component
 │   ├── Products.tsx          # Products listing component
@@ -75,11 +74,21 @@ src/
 │   ├── ProductCard.tsx       # Component for displaying a single product
 │   └── layouts/              # Layout components
 │       └── MainLayout.tsx    # Main layout component for the app
-├── data/                    # Static data files
+├── data/                     # Static data files
 │   └── products.ts           # Product data
-├── pages/                   # Page components or views
+├── pages/                    # Page components or views
 │   ├── Cart.tsx              # Cart page component
 │   ├── CheckOutPage.tsx      # Checkout page component
 │   └── Home.tsx              # Home page component
 └── declarations.d.ts         # TypeScript declaration file for module types
 ```
+
+---
+
+### **Important Links**
+
+- [AmarPay](https://www.aamarpay.com/)
+- [Initiate Payment (JSON)](https://aamarpay.readme.io/reference/initiate-payment-json)
+- [Search Transaction](https://aamarpay.readme.io/reference/search-transaction)
+
+
